@@ -1,0 +1,70 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #e8e8e8;
+    
+}
+
+.menu{
+    list-style: none;
+    padding: 0%;
+    background: hsl(103, 95%, 30%);
+    width: 90;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+
+}
+
+.menu li{
+    display: inline-block;
+    text-align: center;
+}
+
+.menu li a:hover{
+    background: rgb(79, 172, 92);
+}
+
+
+
+h1{
+    font-size: 48px;
+    text-align: center;
+}
+
+.contacto{
+    font-size: 32px;
+    text-align: center;
+}
+
+.localfont{
+    font-family: 'Bebas Neue', sans-serif;;
+    font-size: 22px;
+    text-align: center;
+}
+
+.telefono{
+    color: darkgreen;
+    font-size: 20px;
+    font-family: 'Bebas Neue', sans-serif;;
+    text-align: center;
+}
+
+/* bebas-neue-regular - latin */
+@font-face {
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/bebas-neue-v2-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/bebas-neue-v2-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/bebas-neue-v2-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/bebas-neue-v2-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/bebas-neue-v2-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/bebas-neue-v2-latin-regular.svg#BebasNeue') format('svg'); /* Legacy iOS */
+  }

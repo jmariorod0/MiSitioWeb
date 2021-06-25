@@ -53,19 +53,39 @@ nav li a:hover{
 }
 
 
+.lista{
+    font-size: 28px;
+    text-align: center;
+}
 h1{
     font-size: 32px;
     text-align: center;
 }
-h2{
-    font-style: italic;
-}
-h3{
-    font-family: monospace;
+
+p{
+   font-size: 23px;
+   text-align: center;
+   
 }
 
-p {
-    font-weight: 600;
-    font-family:'Josefin Sans', sans-serif;;
+.nombrecolor {
+    color:navy;
 
+}
+.rgbcolor{ 
+    color: rgb(43, 119, 124);
+}
+
+.hexacolor{
+    color: #d108d8
+}
+
+.marcacolor{
+    color: rgb(102, 51, 204);
+}
+
+span{
+    font-size: 20;
+    color: red;
+    font-weight: 800;
 }
